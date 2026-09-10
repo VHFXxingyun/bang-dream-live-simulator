@@ -1,4 +1,4 @@
-# 《BanG Dream! 乐队演出模拟器》开发学习日志
+# 《BanG Dream! Live Simulator》开发学习日志
 
 ## 版本：V0.3
 日期：2026-09-09  

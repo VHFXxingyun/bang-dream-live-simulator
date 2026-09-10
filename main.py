@@ -1,8 +1,5 @@
 from data import bands,music
 from live import Live
-print("==========================")
-print("BanG Dream! Live Simulator")
-print("==========================")
 def get_choice (max_num):
     while True:
         try:
@@ -17,8 +14,10 @@ def get_choice (max_num):
         except KeyboardInterrupt:
             print("睦子米呆住了，为什么要说这么坏心眼的话 ;w; (live取消)")
             exit()
-
 if(__name__ == "__main__"):
+    print("==========================")
+    print("BanG Dream! Live Simulator")
+    print("==========================")
     print("请选择你的银河战舰：")
     for band in bands:
         print(band.index,band.name)
