@@ -19,6 +19,19 @@ class Music:
         self.index = index
 
 class Character:
-    def __init__(self,name,role):              #名称 乐队 职责
+    def __init__(self,name,role,performance):              #名称  职责  状态
         self.name = name
         self.role = role
+        self.performance = performance
+    def change_performance(self,change):
+        if(change == "normal"):
+            self.performance = 1.0
+            return self.performance
+        elif(change == "good"):
+            self.performance = 1.1
+            return self.performance
+        elif(change == "poor"):
+            self.performance = 0.9
+            return self.performance
+    def performance_restart(self):
+        self.performance = 1.0

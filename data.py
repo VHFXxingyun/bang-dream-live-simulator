@@ -1,15 +1,15 @@
 from models import Band,Music,Character
 
 bands = [
-    Band("Ave Mujica",[Character("丰川祥子","piano"),Character("三角初华","vocal"),Character("若叶睦","guitar"),Character("八幡海铃","bass"),Character("祐天寺若麦","drum")],95,"「欢迎来到 Ave Mujica的世界」",1),
+    Band("Ave Mujica",[Character("丰川祥子","piano",1.0),Character("三角初华","vocal",1.0),Character("若叶睦","guitar",1.0),Character("八幡海铃","bass",1.0),Character("祐天寺若麦","drum",1.0)],95,"「欢迎来到 Ave Mujica的世界」",1),
     
-    Band("MyGO!!!!!",[Character("千早爱音","guitar"),Character("高松灯","vocal"),Character("要乐奈","guitar"),Character("长崎素世","bass"),Character("椎名立希","drum")],85,"你愿意和我组一辈子乐队吗？",2),
+    Band("MyGO!!!!!",[Character("千早爱音","guitar",1.0),Character("高松灯","vocal",1.0),Character("要乐奈","guitar",1.0),Character("长崎素世","bass",1.0),Character("椎名立希","drum",1.0)],85,"你愿意和我组一辈子乐队吗？",2),
     
-    Band("Poppin'Party",[Character("市谷有咲","piano"),Character("户山香澄","vocal"),Character("花园多惠","guitar"),Character("牛込里美","bass"),Character("山吹沙绫","drum")],90,"大家一起闪闪发光吧！",3),
+    Band("Poppin'Party",[Character("市谷有咲","piano",1.0),Character("户山香澄","vocal",1.0),Character("花园多惠","guitar",1.0),Character("牛込里美","bass",1.0),Character("山吹沙绫","drum",1.0)],90,"大家一起闪闪发光吧！",3),
     
-    Band("Roselia",[Character("白金燐子","piano"),Character("凑友希那","vocal"),Character("冰川纱夜","guitar"),Character("今井莉莎","bass"),Character("宇田川亚子","drum")],93,"我们是「Roselia」",4),
+    Band("Roselia",[Character("白金燐子","piano",1.0),Character("凑友希那","vocal",1.0),Character("冰川纱夜","guitar",1.0),Character("今井莉莎","bass",1.0),Character("宇田川亚子","drum",1.0)],93,"我们是「Roselia」",4),
     
-    Band("RAISE A SUILEN",[Character("PAREO","piano"),Character("LAYER","vocal"),Character("LOCK","guitar"),Character("CHU²","DJ"),Character("MASKING","drum")],93,"「We are RAISE A SUILEN!」",5),
+    Band("RAISE A SUILEN",[Character("PAREO","piano",1.0),Character("LAYER","vocal",1.0),Character("LOCK","guitar",1.0),Character("CHU²","DJ",1.0),Character("MASKING","drum",1.0)],93,"「We are RAISE A SUILEN!」",5),
 ]
 
 music = [
